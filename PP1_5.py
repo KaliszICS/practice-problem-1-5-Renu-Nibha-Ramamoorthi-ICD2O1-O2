@@ -26,7 +26,7 @@ def q4():
   print(num) 
 def q5():
   #Write Assignment code here
-  num = input('Input an integer: ")
+  num = input("Input an integer: ")
   num = int(num)
   num += 5 
   print("Your number + 5 is {}".format(num)) 
