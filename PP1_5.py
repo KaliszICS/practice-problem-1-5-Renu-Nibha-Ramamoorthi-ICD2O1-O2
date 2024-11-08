@@ -21,13 +21,14 @@ def q4():
   #Write Assignment code here
   user_input = input("Input a number: ") 
   number = float(user_input)  
-  final_value = math.floor(number * 12)
+  final_value = int(number * 12)
   print(final_value) 
+
 def q5():
   #Write Assignment code here
   user_input = input("Input an integer: ")
   number = int(user_input) + 5  
-  print(number) 
+  print(f"Your {user_input} + 5 is {number}") 
               
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
